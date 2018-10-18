@@ -8,6 +8,7 @@ html {
 
 html {
   font-family: Georgia, serif;
+  line-height: 1.5;
 }
 
 body {
@@ -16,11 +17,68 @@ body {
 
 header {
   background-color: #ffe500;
+  padding: .75em;
 }
 
 h1 {
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 3rem;
+  margin: 0;
+  text-align: center;
+}
 
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+a {
+  color: #fff;
+  background-color: #b2a212;
+  display: inline-block;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #cc1465;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+  font-size: 1.875rem;
+  text-align: left;
+  margin-left: .75em;
+}
+
+footer {
+  background-color: #ffe500;
+  padding: .75em;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+img {
+  width: 100%;
+  padding: 0 .75em;
+}
+
+main p {
+  padding: 0 .75em;
 }
